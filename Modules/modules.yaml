@@ -3,4 +3,6 @@
 #   - xrobot-org/BlinkLED
 #   - your-namespace/YourModule@dev
 modules:
-  - xrobot-org/BlinkLED
+  - qdu-future-fresher/Chassis
+  - qdu-future-fresher/HcSro4
+  - qdu-future-fresher/TTMotor
