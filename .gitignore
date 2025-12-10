@@ -1,0 +1,12 @@
+CMakeFiles/**
+.history/**
+.config.yaml
+CMakeCache.txt
+build.ninja
+cmake_install.cmake
+compile_commands.json
+.cache/**
+build/**
+DevC.jdebug.user
+.config.json
+User/xrobot_main.hpp

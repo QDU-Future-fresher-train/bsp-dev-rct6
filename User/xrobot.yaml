@@ -1,0 +1,18 @@
+global_settings:
+  monitor_sleep_ms: 1000
+modules:
+- id: HcSr04_0
+  name: HcSr04
+  constructor_args: {}
+- id: motor_0
+  name: TTMotor
+  constructor_args:
+    motor_pwm_name: pwm_tim1_ch1
+    motor_in1_name: AIN1
+    motor_in2_name: AIN2
+    enc_a_name: ENCA
+    enc_b_name: ENCB
+- id: chassis
+  name: Chassis
+  constructor_args:
+    motor_left: '@&motor_0'
